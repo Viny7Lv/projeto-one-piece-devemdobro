@@ -115,21 +115,14 @@
         color: #ffffff;
         font-family: "Rubik";
         line-height: 20px;
-    }
-
-    .conteudo .descricao{
         max-width: 400px;
+        font-size: 14px;
+        border-radius: 7px;
     }
 
     .conteudo .nome-personagem{
         margin-bottom: 15px;
         font-size: 40px;
-    }
-
-    .conteudo .descricao{
-        font-size: 14px;
-        background-image: linear-gradient(to left, #00000238, transparent);
-        border-radius: 7px;
     }
 }
 
@@ -139,6 +132,15 @@
         margin-bottom: 0px;
     }
 
+}
+
+@media (max-width: 1400px) {
+
+    .conteudo .descricao {
+    background-image: linear-gradient(to left, #000002b9, transparent);
+    padding: 2px;
+    border-radius: 5px;
+    }
 }
 
 @media (min-width: 1800px) and (min-height: 900px){
